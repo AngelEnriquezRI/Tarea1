@@ -21,7 +21,7 @@ int main(){
     if(lim > 0) {
         //Ciclo para acomodar los numeros de la serie Fibonacci
         for(init = 1; init <= lim; init++) {
-            cout << fib;
+            cout << "[" << fib << "] ";
             aux += fib; /* lo mismo que aux = aux + fib; */
             fib = aux - fib;
         }
